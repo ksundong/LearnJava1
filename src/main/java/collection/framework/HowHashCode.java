@@ -1,6 +1,7 @@
 package collection.framework;
 
 import java.util.HashSet;
+import java.util.Objects;
 
 class Car {
 	private String model;
@@ -17,7 +18,7 @@ class Car {
 	}
 	@Override
 	public int hashCode() {
-		return (model.hashCode() + color.hashCode()) / 2;
+		return Objects.hash(model, color);
 	}
 	
 	@Override
