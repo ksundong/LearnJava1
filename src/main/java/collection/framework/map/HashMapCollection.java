@@ -2,11 +2,12 @@ package collection.framework.map;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 
 public class HashMapCollection {
 	public static void main(String[] args) {
-		HashMap<Integer, String> map = new HashMap<>();
+		Map<Integer, String> map = new HashMap<>();
 		
 		// Key-Value Store
 		map.put(45, "Brown");
