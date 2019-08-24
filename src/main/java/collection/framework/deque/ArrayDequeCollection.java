@@ -1,11 +1,11 @@
 package collection.framework.deque;
 
-import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.LinkedList;
 
 public class ArrayDequeCollection {
 	public static void main(String[] args) {
-		Deque<String> deq = new ArrayDeque<>();
+		Deque<String> deq = new LinkedList<>(); // new LinkedList instance
 		
 		// First offer
 		deq.offerFirst("1.Box");
