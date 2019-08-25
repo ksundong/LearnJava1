@@ -1,13 +1,13 @@
 package collection.framework.map;
 
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 
 public class HashMapCollection {
 	public static void main(String[] args) {
-		Map<Integer, String> map = new HashMap<>();
+		Map<Integer, String> map = new TreeMap<>();
 		
 		// Key-Value Store
 		map.put(45, "Brown");
